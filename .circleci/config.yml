@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/palatial-cakes-cli
+    working_directory: ~/palatial-cakes-cli-app
     docker:
       - image: cimg/node:10.16.3
     steps:
@@ -22,7 +22,7 @@ jobs:
           name: run tests
           command: npm test
       - store_artifacts:
-          path: ~/palatial-cakes-cli/__tests__
+          path: ~/palatial-cakes-cli-app/__tests__
 
 
 
