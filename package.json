@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "bin": {
-    "palatial-cakes-cli-app": "/bin/index.js"
+    "palatial-cakes-cli": "/bin/index.js"
   },
   "dependencies": {
     "commander": "^8.3.0",
